@@ -1,0 +1,15 @@
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Application Layer\bin\Debug\net8.0\Application Layer.deps.json
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Application Layer\bin\Debug\net8.0\Application Layer.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Application Layer\bin\Debug\net8.0\Application Layer.pdb
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Application Layer\bin\Debug\net8.0\Domain Layer.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Application Layer\bin\Debug\net8.0\Domain Layer.pdb
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Application Layer\obj\Debug\net8.0\Application Layer.csproj.AssemblyReference.cache
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Application Layer\obj\Debug\net8.0\Application Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Application Layer\obj\Debug\net8.0\Application Layer.AssemblyInfoInputs.cache
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Application Layer\obj\Debug\net8.0\Application Layer.AssemblyInfo.cs
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Application Layer\obj\Debug\net8.0\Application Layer.csproj.CoreCompileInputs.cache
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Application Layer\obj\Debug\net8.0\Applicat.A7418506.Up2Date
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Application Layer\obj\Debug\net8.0\Application Layer.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Application Layer\obj\Debug\net8.0\refint\Application Layer.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Application Layer\obj\Debug\net8.0\Application Layer.pdb
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Application Layer\obj\Debug\net8.0\ref\Application Layer.dll
