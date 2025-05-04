@@ -1,22 +1,38 @@
 [
   {
     "ContainingType": "API.Controllers.CustomerController",
-    "Method": "GetCurrentCustomers",
+    "Method": "CreateACustomer",
     "RelativePath": "api/Customer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerToCreate",
+        "Type": "Application_Layer.Dtos.CustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.CustomerController",
+    "Method": "GetAllCurrentCustomers",
+    "RelativePath": "api/Customer/Get-All-Customers",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "Application_Layer.Dtos.CustomerDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.CustomerController",
+    "Method": "GetCurrentCustomers",
+    "RelativePath": "api/Customer/Get-Customer-ID-0",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

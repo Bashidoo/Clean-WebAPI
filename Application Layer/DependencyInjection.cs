@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MediatR;
 using Application_Layer.Services;
+using Application_Layer.Common.Mappings;
 
 namespace Application_Layer
 {
@@ -15,6 +16,8 @@ namespace Application_Layer
         {
             
             var assembly = typeof(DependencyInjection).Assembly;
+            assembly = typeof(CustomerProfile).Assembly;
+            services.AddAutoMapper(assembly);
 
             services.AddScoped<ICustomerService, CustomerService>();
             services.AddMediatR(configuration =>

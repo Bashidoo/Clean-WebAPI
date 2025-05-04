@@ -1,4 +1,5 @@
-﻿using Domain_Layer.Models;
+﻿using Application_Layer.Dtos;
+using Domain_Layer.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,8 @@ namespace Application_Layer.Interfaces.CustomerInterface
 {
     public interface ICustomerRepository
     {
+        Task<List<Customer>> GetAllCustomersAsync();
+        Task<string> AddCustomerAsync(Customer customer);
          Customer GetCurrentCustomerFromDB();
     }
 }

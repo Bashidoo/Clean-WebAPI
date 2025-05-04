@@ -91,6 +91,7 @@ C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\obj\Debug\net8.0\Tes
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\obj\Debug\net8.0\Tests.AssemblyInfoInputs.cache
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\obj\Debug\net8.0\Tests.AssemblyInfo.cs
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\obj\Debug\net8.0\Tests.csproj.CoreCompileInputs.cache
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\obj\Debug\net8.0\Tests.sourcelink.json
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\obj\Debug\net8.0\Tests.csproj.Up2Date
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\obj\Debug\net8.0\Tests.dll
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\obj\Debug\net8.0\refint\Tests.dll

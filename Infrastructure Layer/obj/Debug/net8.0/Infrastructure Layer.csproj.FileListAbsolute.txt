@@ -11,6 +11,7 @@ C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Infrastructure Layer\obj\D
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Infrastructure Layer\obj\Debug\net8.0\Infrastructure Layer.AssemblyInfoInputs.cache
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Infrastructure Layer\obj\Debug\net8.0\Infrastructure Layer.AssemblyInfo.cs
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Infrastructure Layer\obj\Debug\net8.0\Infrastructure Layer.csproj.CoreCompileInputs.cache
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Infrastructure Layer\obj\Debug\net8.0\Infrastructure Layer.sourcelink.json
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Infrastructure Layer\obj\Debug\net8.0\Infrastr.E4F4A019.Up2Date
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Infrastructure Layer\obj\Debug\net8.0\Infrastructure Layer.dll
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Infrastructure Layer\obj\Debug\net8.0\refint\Infrastructure Layer.dll

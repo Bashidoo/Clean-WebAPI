@@ -1,6 +1,7 @@
 ﻿using Application_Layer.Interfaces.CustomerInterface;
 using Domain_Layer.Models;
 using Infrastructure_Layer.Database;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,14 @@ namespace Infrastructure_Layer.Repositories
         {
             _theDatabase = appDbcontext;
         }
+
+        public async Task<string> AddCustomerAsync(Customer customer)
+        {
+            _theDatabase.Customers.Add(customer);
+            await _theDatabase.SaveChangesAsync();
+            return customer.Name;
+        }
+
         public Customer GetCurrentCustomerFromDB()
         {
             string defaultCustomerName = "Busherino";
@@ -32,5 +41,12 @@ namespace Infrastructure_Layer.Repositories
 
             return _theDatabase.Customers.FirstOrDefault() ?? customer1; 
         }
+
+        public async Task<List<Customer>> GetAllCustomersAsync()
+        {
+            return await _theDatabase.Customers.ToListAsync();
+        }
+
+
     }
 }
