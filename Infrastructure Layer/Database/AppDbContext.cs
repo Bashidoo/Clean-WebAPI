@@ -23,7 +23,7 @@ namespace Infrastructure_Layer.Database
             modelBuilder.Entity<Customer>(entity =>
             {
 
-                entity.HasKey(e => e.Name); // or whatever your key property is
+                entity.HasKey(e => e.Name); // or whatever your key property is7
 
 
             });

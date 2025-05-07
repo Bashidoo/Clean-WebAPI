@@ -10,8 +10,12 @@ namespace Application_Layer.Interfaces.CustomerInterface
 {
     public interface ICustomerRepository
     {
+        Task<bool> RemoveCustomerAsync(string customerName);
         Task<List<Customer>> GetAllCustomersAsync();
-        Task<string> AddCustomerAsync(Customer customer);
+        Task<Customer> AddCustomerAsync(Customer customer);
          Customer GetCurrentCustomerFromDB();
+        Task<Customer?> FindCustomerByNameAsync(string name);
+        Task<bool> UpdateCustomerAsync(Customer customer);
+
     }
 }

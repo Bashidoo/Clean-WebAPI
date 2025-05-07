@@ -11,7 +11,7 @@ namespace Application_Layer.Queries.CreateACustomer
 {
     public class CreateCustomerCommandQuery : IRequest<string>
     {
-        public CustomerDto CustomerDto { get; }
+        public CustomerDto CustomerDto { get; set; }
         public CreateCustomerCommandQuery(CustomerDto customerdto)
         {
             CustomerDto = customerdto;

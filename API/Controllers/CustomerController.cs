@@ -6,6 +6,8 @@ using Domain_Layer.Models;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Application_Layer.Queries.GetAllCurrentCustomer;
+using Application_Layer.Queries.DeleteCustomer;
+using Application_Layer.Queries.UpdateACustomer;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -23,7 +25,7 @@ namespace API.Controllers
             _mediator = mediator;
         }
         // GET: api/<CustomerController>
-        [HttpGet("Get-Customer-ID-0")]
+        [HttpGet("Get-First-Customer-")]
         public async Task<ActionResult> GetCurrentCustomers()
         {
             var result = await _mediator.Send(new GetCurrentCustomerQuery());
@@ -42,6 +44,30 @@ namespace API.Controllers
         {
             var result = await _mediator.Send(new CreateCustomerCommandQuery(customerToCreate));
                 return Ok(result);
+        }
+
+        [HttpDelete]
+
+        public async Task<ActionResult> DeleteACustomer(string customerName)
+        {
+            var result = await _mediator.Send(new DeleteCustomerQuery(customerName));
+
+            if (result == null)
+                return NotFound(result);
+
+            return Ok(result);
+        }
+
+        [HttpPatch]
+        public async Task<ActionResult> UpdateACustomer([FromBody] CustomerDto customerToUpdate)
+        {
+            var result = await _mediator.Send(new UpdateACustomerQuery(customerToUpdate));
+
+            if (result == null)
+                return NotFound(result);
+            else
+                return Ok(result);
+         
         }
     }
 }

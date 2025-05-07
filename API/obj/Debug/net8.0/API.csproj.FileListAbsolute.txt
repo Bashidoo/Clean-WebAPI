@@ -152,3 +152,6 @@ C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\API\obj\Debug\net8.0\refin
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\API\obj\Debug\net8.0\API.pdb
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

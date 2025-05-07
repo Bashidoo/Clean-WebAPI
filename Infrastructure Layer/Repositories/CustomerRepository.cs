@@ -1,4 +1,5 @@
-﻿using Application_Layer.Interfaces.CustomerInterface;
+﻿using Application_Layer.Dtos;
+using Application_Layer.Interfaces.CustomerInterface;
 using Domain_Layer.Models;
 using Infrastructure_Layer.Database;
 using Microsoft.EntityFrameworkCore;
@@ -22,11 +23,11 @@ namespace Infrastructure_Layer.Repositories
             _theDatabase = appDbcontext;
         }
 
-        public async Task<string> AddCustomerAsync(Customer customer)
+        public async Task<Customer> AddCustomerAsync(Customer customer)
         {
             _theDatabase.Customers.Add(customer);
             await _theDatabase.SaveChangesAsync();
-            return customer.Name;
+            return customer;
         }
 
         public Customer GetCurrentCustomerFromDB()
@@ -47,6 +48,29 @@ namespace Infrastructure_Layer.Repositories
             return await _theDatabase.Customers.ToListAsync();
         }
 
+        public async Task<bool> RemoveCustomerAsync(string customerName)
+        {
+            var customer = await _theDatabase.Customers
+                .FirstOrDefaultAsync(c => c.Name == customerName);
 
+            if (customer == null)
+                return false;
+
+            _theDatabase.Customers.Remove(customer);
+            await _theDatabase.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<Customer?> FindCustomerByNameAsync(string customerName)
+        {
+            return await _theDatabase.Customers.FindAsync(customerName);
+        }
+
+        public async Task<bool> UpdateCustomerAsync(Customer customer)
+        {
+            _theDatabase.Customers.Update(customer);
+            await _theDatabase.SaveChangesAsync();
+            return true;
+        }
     }
 }

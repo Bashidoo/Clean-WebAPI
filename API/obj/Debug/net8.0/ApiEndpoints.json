@@ -17,6 +17,38 @@
   },
   {
     "ContainingType": "API.Controllers.CustomerController",
+    "Method": "DeleteACustomer",
+    "RelativePath": "api/Customer",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.CustomerController",
+    "Method": "UpdateACustomer",
+    "RelativePath": "api/Customer",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerToUpdate",
+        "Type": "Application_Layer.Dtos.CustomerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.CustomerController",
     "Method": "GetAllCurrentCustomers",
     "RelativePath": "api/Customer/Get-All-Customers",
     "HttpMethod": "GET",
@@ -28,7 +60,7 @@
   {
     "ContainingType": "API.Controllers.CustomerController",
     "Method": "GetCurrentCustomers",
-    "RelativePath": "api/Customer/Get-Customer-ID-0",
+    "RelativePath": "api/Customer/Get-First-Customer-",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
