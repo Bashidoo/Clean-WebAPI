@@ -98,3 +98,18 @@ C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\obj\Debug\net8.0\ref
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\obj\Debug\net8.0\Tests.pdb
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\obj\Debug\net8.0\Tests.genruntimeconfig.cache
 C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\obj\Debug\net8.0\ref\Tests.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_Tests
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\bin\Debug\net8.0\MediatR.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\bin\Debug\net8.0\Moq.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\bin\Debug\net8.0\Application Layer.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\bin\Debug\net8.0\Domain Layer.dll
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\bin\Debug\net8.0\Application Layer.pdb
+C:\Users\Busher\Desktop\Github\Databases\Clean-WebAPI\Tests\bin\Debug\net8.0\Domain Layer.pdb

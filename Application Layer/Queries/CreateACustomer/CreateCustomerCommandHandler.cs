@@ -25,6 +25,7 @@ namespace Application_Layer.Queries.CreateACustomer
             _logger = logger;
         }
 
+
         public async Task<string> Handle(CreateCustomerCommandQuery request, CancellationToken cancellationToken)
         {
             try
