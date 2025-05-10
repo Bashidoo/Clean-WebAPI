@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application_Layer.Queries.CreateACustomer
+namespace Application_Layer.Queries.CustomerQueries.CreateACustomer
 {
     public class CreateCustomerCommandQuery : IRequest<string>
     {
@@ -16,8 +16,8 @@ namespace Application_Layer.Queries.CreateACustomer
         {
             CustomerDto = customerdto;
         }
-       
 
-       
+
+
     }
 }

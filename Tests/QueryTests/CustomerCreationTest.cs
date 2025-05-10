@@ -1,4 +1,3 @@
-using Application_Layer.Queries.CreateACustomer;
 using Application_Layer.Dtos;
 using Application_Layer.Interfaces.CustomerInterface;
 
@@ -6,9 +5,7 @@ using AutoMapper;
 using Domain_Layer.Models;
 using Microsoft.Extensions.Logging;
 using Moq;
-using NUnit.Framework;
-using System.Threading;
-using System.Threading.Tasks;
+using Application_Layer.Queries.CustomerQueries.CreateACustomer;
 
 namespace Tests.QueryTests
 {

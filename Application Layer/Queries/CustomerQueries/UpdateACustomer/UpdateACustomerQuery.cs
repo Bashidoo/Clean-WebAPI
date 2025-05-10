@@ -6,12 +6,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application_Layer.Queries.UpdateACustomer
+namespace Application_Layer.Queries.CustomerQueries.UpdateACustomer
 {
     public class UpdateACustomerQuery : IRequest<string>
     {
         public CustomerDto CustomerToUpdate { get; set; }
-        public UpdateACustomerQuery(CustomerDto customertoupdate) 
+        public UpdateACustomerQuery(CustomerDto customertoupdate)
         {
             CustomerToUpdate = customertoupdate;
         }

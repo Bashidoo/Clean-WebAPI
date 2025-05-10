@@ -1,13 +1,14 @@
 ﻿using Application_Layer.Dtos;
-using Application_Layer.Queries.GetCurrentCustomer;
-using Application_Layer.Queries.CreateACustomer;
+using Application_Layer.Queries.CustomerQueries;
+using Application_Layer.Queries.CustomerQueries.CreateACustomer;
 using Application_Layer.Services;
 using Domain_Layer.Models;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Application_Layer.Queries.GetAllCurrentCustomer;
-using Application_Layer.Queries.DeleteCustomer;
-using Application_Layer.Queries.UpdateACustomer;
+using Application_Layer.Queries.CustomerQueries.GetAllCurrentCustomer;
+using Application_Layer.Queries.CustomerQueries.DeleteCustomer;
+using Application_Layer.Queries.CustomerQueries.UpdateACustomer;
+using Application_Layer.Queries.CustomerQueries.GetCurrentCustomer;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 

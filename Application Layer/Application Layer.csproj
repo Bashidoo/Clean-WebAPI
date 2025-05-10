@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <Folder Include="Common\Behaviors\" />
+    <Folder Include="Queries\ProductQueries\" />
   </ItemGroup>
 
 </Project>

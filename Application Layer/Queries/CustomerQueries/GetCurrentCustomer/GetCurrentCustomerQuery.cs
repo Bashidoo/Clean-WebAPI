@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application_Layer.Queries.GetCurrentCustomer
+namespace Application_Layer.Queries.CustomerQueries.GetCurrentCustomer
 {
     public class GetCurrentCustomerQuery : IRequest<Customer>
     {

@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application_Layer.Queries.GetAllCurrentCustomer
+namespace Application_Layer.Queries.CustomerQueries.GetAllCurrentCustomer
 {
     public class GetAllCurrentCustomerHandler : IRequestHandler<GetAllCurrentCustomerQuery, List<CustomerDto>>
     {

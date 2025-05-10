@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application_Layer.Queries.DeleteCustomer
+namespace Application_Layer.Queries.CustomerQueries.DeleteCustomer
 {
     public class DeleteCustomerQuery : IRequest<string>
     {

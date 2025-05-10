@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application_Layer.Queries.DeleteCustomer
+namespace Application_Layer.Queries.CustomerQueries.DeleteCustomer
 {
     public class DeleteCustomerHandler : IRequestHandler<DeleteCustomerQuery, string>
     {
@@ -16,11 +16,11 @@ namespace Application_Layer.Queries.DeleteCustomer
 
 
         private readonly ILogger<DeleteCustomerHandler> _logger;
-        public DeleteCustomerHandler(ICustomerRepository customerrepository, ILogger<DeleteCustomerHandler> logger) 
-        { 
+        public DeleteCustomerHandler(ICustomerRepository customerrepository, ILogger<DeleteCustomerHandler> logger)
+        {
             _customerrepository = customerrepository;
             _logger = logger;
-        
+
         }
 
         public async Task<string> Handle(DeleteCustomerQuery request, CancellationToken cancellationToken)

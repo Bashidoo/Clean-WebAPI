@@ -3,19 +3,29 @@
   "WorkspaceRootPath": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A76CDF2-537F-41FE-B36F-320787F166A4}|API.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A76CDF2-537F-41FE-B36F-320787F166A4}|API.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{716A7196-5761-409A-82A1-549C838761FA}|..\\Tests\\Tests.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\tests\\querytests\\customercreationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\interfaces\\productinterface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\interfaces\\customerinterface\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\createacustomer\\createcustomercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\createacustomer\\createcustoemrcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\customerqueries\\createacustomer\\createcustomercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\customerqueries\\createacustomer\\createcustoemrcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83B4253F-7664-4B74-ADB7-76A70F3DFA48}|..\\Domain Layer\\Domain Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\domain layer\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -24,17 +34,13 @@
       "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A76CDF2-537F-41FE-B36F-320787F166A4}|API.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A76CDF2-537F-41FE-B36F-320787F166A4}|API.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\common\\validator\\customerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\common\\validator\\validatorbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\createacustomer\\createcustomercommandquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\customerqueries\\createacustomer\\createcustomercommandquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -43,7 +49,7 @@
       "AbsoluteMoniker": "D:0:0:{547374DE-A235-4C36-BC22-F370341257DD}|..\\Infrastructure Layer\\Infrastructure Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\infrastructure layer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\deletecustomer\\deletecustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\customerqueries\\deletecustomer\\deletecustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{547374DE-A235-4C36-BC22-F370341257DD}|..\\Infrastructure Layer\\Infrastructure Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\infrastructure layer\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -52,13 +58,13 @@
       "AbsoluteMoniker": "D:0:0:{547374DE-A235-4C36-BC22-F370341257DD}|..\\Infrastructure Layer\\Infrastructure Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\infrastructure layer\\migrations\\20250504035800_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\deletecustomer\\deletecustomerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\customerqueries\\deletecustomer\\deletecustomerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{547374DE-A235-4C36-BC22-F370341257DD}|..\\Infrastructure Layer\\Infrastructure Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\infrastructure layer\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\updateacustomer\\updateacustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\customerqueries\\updateacustomer\\updateacustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\application layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -79,19 +85,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "..\\Application Layer\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Services\\CustomerService.cs",
+              "RelativeToolTip": "..\\Application Layer\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T23:52:48.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CustomerCreationTest.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Tests\\QueryTests\\CustomerCreationTest.cs",
               "RelativeDocumentMoniker": "..\\Tests\\QueryTests\\CustomerCreationTest.cs",
               "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Tests\\QueryTests\\CustomerCreationTest.cs",
               "RelativeToolTip": "..\\Tests\\QueryTests\\CustomerCreationTest.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T20:08:31.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Dtos\\ProductDto.cs",
               "RelativeDocumentMoniker": "..\\Application Layer\\Dtos\\ProductDto.cs",
@@ -103,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Domain Layer\\Models\\Order.cs",
               "RelativeDocumentMoniker": "..\\Domain Layer\\Models\\Order.cs",
@@ -115,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "OrderDto.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Dtos\\OrderDto.cs",
               "RelativeDocumentMoniker": "..\\Application Layer\\Dtos\\OrderDto.cs",
@@ -127,19 +146,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CreateCustoemrCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CreateACustomer\\CreateCustoemrCommandValidator.cs",
-              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\CreateACustomer\\CreateCustoemrCommandValidator.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CreateACustomer\\CreateCustoemrCommandValidator.cs",
-              "RelativeToolTip": "..\\Application Layer\\Queries\\CreateACustomer\\CreateCustoemrCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CustomerQueries\\CreateACustomer\\CreateCustoemrCommandValidator.cs",
+              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\CustomerQueries\\CreateACustomer\\CreateCustoemrCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CustomerQueries\\CreateACustomer\\CreateCustoemrCommandValidator.cs",
+              "RelativeToolTip": "..\\Application Layer\\Queries\\CustomerQueries\\CreateACustomer\\CreateCustoemrCommandValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T19:39:48.266Z"
+              "WhenOpened": "2025-05-07T19:39:48.266Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ValidatorBehavior.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Common\\Validator\\ValidatorBehavior.cs",
               "RelativeDocumentMoniker": "..\\Application Layer\\Common\\Validator\\ValidatorBehavior.cs",
@@ -151,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "20250504035800_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Infrastructure Layer\\Migrations\\20250504035800_Initial.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure Layer\\Migrations\\20250504035800_Initial.cs",
@@ -163,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Infrastructure Layer\\Database\\AppDbContext.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure Layer\\Database\\AppDbContext.cs",
@@ -175,43 +195,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "DeleteCustomerQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\DeleteCustomer\\DeleteCustomerQuery.cs",
-              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\DeleteCustomer\\DeleteCustomerQuery.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\DeleteCustomer\\DeleteCustomerQuery.cs",
-              "RelativeToolTip": "..\\Application Layer\\Queries\\DeleteCustomer\\DeleteCustomerQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CustomerQueries\\DeleteCustomer\\DeleteCustomerQuery.cs",
+              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\CustomerQueries\\DeleteCustomer\\DeleteCustomerQuery.cs",
+              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CustomerQueries\\DeleteCustomer\\DeleteCustomerQuery.cs",
+              "RelativeToolTip": "..\\Application Layer\\Queries\\CustomerQueries\\DeleteCustomer\\DeleteCustomerQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T01:23:47.245Z"
+              "WhenOpened": "2025-05-07T01:23:47.245Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CreateCustomerCommandQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CreateACustomer\\CreateCustomerCommandQuery.cs",
-              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\CreateACustomer\\CreateCustomerCommandQuery.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CreateACustomer\\CreateCustomerCommandQuery.cs",
-              "RelativeToolTip": "..\\Application Layer\\Queries\\CreateACustomer\\CreateCustomerCommandQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CustomerQueries\\CreateACustomer\\CreateCustomerCommandQuery.cs",
+              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\CustomerQueries\\CreateACustomer\\CreateCustomerCommandQuery.cs",
+              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CustomerQueries\\CreateACustomer\\CreateCustomerCommandQuery.cs",
+              "RelativeToolTip": "..\\Application Layer\\Queries\\CustomerQueries\\CreateACustomer\\CreateCustomerCommandQuery.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAswA4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T01:23:43.224Z"
+              "WhenOpened": "2025-05-07T01:23:43.224Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "CreateCustomerCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CreateACustomer\\CreateCustomerCommandHandler.cs",
-              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\CreateACustomer\\CreateCustomerCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CreateACustomer\\CreateCustomerCommandHandler.cs",
-              "RelativeToolTip": "..\\Application Layer\\Queries\\CreateACustomer\\CreateCustomerCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CustomerQueries\\CreateACustomer\\CreateCustomerCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\CustomerQueries\\CreateACustomer\\CreateCustomerCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CustomerQueries\\CreateACustomer\\CreateCustomerCommandHandler.cs",
+              "RelativeToolTip": "..\\Application Layer\\Queries\\CustomerQueries\\CreateACustomer\\CreateCustomerCommandHandler.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T01:23:40.234Z"
+              "WhenOpened": "2025-05-07T01:23:40.234Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "..\\Application Layer\\DependencyInjection.cs",
@@ -223,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CustomerDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Common\\Validator\\CustomerDtoValidator.cs",
               "RelativeDocumentMoniker": "..\\Application Layer\\Common\\Validator\\CustomerDtoValidator.cs",
@@ -235,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "CustomerDto.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Dtos\\CustomerDto.cs",
               "RelativeDocumentMoniker": "..\\Application Layer\\Dtos\\CustomerDto.cs",
@@ -247,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Application Layer.csproj",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Application Layer.csproj",
               "RelativeDocumentMoniker": "..\\Application Layer\\Application Layer.csproj",
@@ -259,55 +282,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "DeleteCustomerHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\DeleteCustomer\\DeleteCustomerHandler.cs",
-              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\DeleteCustomer\\DeleteCustomerHandler.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\DeleteCustomer\\DeleteCustomerHandler.cs",
-              "RelativeToolTip": "..\\Application Layer\\Queries\\DeleteCustomer\\DeleteCustomerHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CustomerQueries\\DeleteCustomer\\DeleteCustomerHandler.cs",
+              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\CustomerQueries\\DeleteCustomer\\DeleteCustomerHandler.cs",
+              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CustomerQueries\\DeleteCustomer\\DeleteCustomerHandler.cs",
+              "RelativeToolTip": "..\\Application Layer\\Queries\\CustomerQueries\\DeleteCustomer\\DeleteCustomerHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T19:41:14.249Z"
+              "WhenOpened": "2025-05-04T19:41:14.249Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Interfaces\\CustomerInterface\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "..\\Application Layer\\Interfaces\\CustomerInterface\\ICustomerRepository.cs",
               "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Interfaces\\CustomerInterface\\ICustomerRepository.cs",
               "RelativeToolTip": "..\\Application Layer\\Interfaces\\CustomerInterface\\ICustomerRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T22:08:54.556Z"
+              "WhenOpened": "2025-05-04T22:08:54.556Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "UpdateACustomerQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\UpdateACustomer\\UpdateACustomerQuery.cs",
-              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\UpdateACustomer\\UpdateACustomerQuery.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\UpdateACustomer\\UpdateACustomerQuery.cs",
-              "RelativeToolTip": "..\\Application Layer\\Queries\\UpdateACustomer\\UpdateACustomerQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CustomerQueries\\UpdateACustomer\\UpdateACustomerQuery.cs",
+              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\CustomerQueries\\UpdateACustomer\\UpdateACustomerQuery.cs",
+              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CustomerQueries\\UpdateACustomer\\UpdateACustomerQuery.cs",
+              "RelativeToolTip": "..\\Application Layer\\Queries\\CustomerQueries\\UpdateACustomer\\UpdateACustomerQuery.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAlwA0AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T19:50:07.596Z"
+              "WhenOpened": "2025-05-04T19:50:07.596Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\API\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
               "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\API\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "Controllers\\CustomerController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAA1wCoAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAA5wDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T19:41:32.264Z"
+              "WhenOpened": "2025-05-04T19:41:32.264Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Infrastructure Layer\\Repositories\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure Layer\\Repositories\\CustomerRepository.cs",
@@ -319,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Infrastructure Layer\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure Layer\\DependencyInjection.cs",
@@ -328,6 +355,40 @@
               "ViewState": "AgIAAAIAAAAAAAAAAAA3wBYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T22:45:33.925Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "802d7752-c565-4002-af70-abc663ee8339",
+        "Display": 0,
+        "X": 1828,
+        "Y": 265,
+        "Width": 920,
+        "Height": 669,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Interfaces\\ProductInterface\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\Application Layer\\Interfaces\\ProductInterface\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Interfaces\\ProductInterface\\IProductRepository.cs",
+              "RelativeToolTip": "..\\Application Layer\\Interfaces\\ProductInterface\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T22:35:14.079Z",
+              "EditorCaption": ""
             }
           ]
         }

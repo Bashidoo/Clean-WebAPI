@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Application_Layer.Queries.CreateACustomer
+namespace Application_Layer.Queries.CustomerQueries.CreateACustomer
 {
     public class CreateCustomerCommandHandler : IRequestHandler<CreateCustomerCommandQuery, string>
     {

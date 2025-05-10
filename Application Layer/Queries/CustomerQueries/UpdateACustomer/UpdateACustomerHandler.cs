@@ -9,7 +9,7 @@ using System.Text;
 
 using System.Threading.Tasks;
 
-namespace Application_Layer.Queries.UpdateACustomer
+namespace Application_Layer.Queries.CustomerQueries.UpdateACustomer
 {
     public class UpdateACustomerHandler : IRequestHandler<UpdateACustomerQuery, string>
     {
