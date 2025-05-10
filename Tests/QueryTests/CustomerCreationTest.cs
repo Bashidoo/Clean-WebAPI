@@ -1,7 +1,7 @@
 using Application_Layer.Queries.CreateACustomer;
 using Application_Layer.Dtos;
 using Application_Layer.Interfaces.CustomerInterface;
-using Application_Layer.Queries.CreateACustomer;
+
 using AutoMapper;
 using Domain_Layer.Models;
 using Microsoft.Extensions.Logging;
