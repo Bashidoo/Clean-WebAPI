@@ -13,13 +13,14 @@ namespace Application_Layer.Interfaces.ProductInterface
 
         Task<Product> AddProductAsync(Product product);
 
-        Product GetCurrentProductFromDB();
+        Product? GetCurrentProductFromDB();
         Task<List<Product>> GetAllProductsAsync();
-        Task<Product> GetProductByIdAsync(string productID);
+        Task<Product?> GetProductByNameAsync(string productName);
+        Task<Product?> GetProductByIdAsync(double productId);
 
         Task<bool> UpdateProductAsync(Product product);
 
-        Task<bool> RemoveProductAsync(string productID);
+        Task<bool> RemoveProductAsync(double productID);
         
     }
 }

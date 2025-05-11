@@ -47,18 +47,6 @@ namespace API.Controllers
                 return Ok(result);
         }
 
-        [HttpDelete]
-
-        public async Task<ActionResult> DeleteACustomer(string customerName)
-        {
-            var result = await _mediator.Send(new DeleteCustomerQuery(customerName));
-
-            if (result == null)
-                return NotFound(result);
-
-            return Ok(result);
-        }
-
         [HttpPatch]
         public async Task<ActionResult> UpdateACustomer([FromBody] CustomerDto customerToUpdate)
         {
@@ -69,6 +57,18 @@ namespace API.Controllers
             else
                 return Ok(result);
          
+        }
+
+        [HttpDelete]
+
+        public async Task<ActionResult> DeleteACustomer(string customerName)
+        {
+            var result = await _mediator.Send(new DeleteCustomerQuery(customerName));
+
+            if (result == null)
+                return NotFound(result);
+
+            return Ok(result);
         }
     }
 }

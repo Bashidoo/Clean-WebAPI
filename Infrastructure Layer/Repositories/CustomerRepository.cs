@@ -30,17 +30,17 @@ namespace Infrastructure_Layer.Repositories
             return customer;
         }
 
-        public Customer GetCurrentCustomerFromDB()
+        public Customer? GetCurrentCustomerFromDB()
         {
-            string defaultCustomerName = "Busherino";
+          /*  string defaultCustomerName = "Busherino";
             string defaultCustomerEmail = "busherino.Demolino.com";
             Customer customer1 = new Customer()
             {
                 Name = defaultCustomerName,
                 Email = defaultCustomerEmail
-            };
+            }; */
 
-            return _theDatabase.Customers.FirstOrDefault() ?? customer1; 
+            return _theDatabase.Customers.FirstOrDefault(); 
         }
 
         public async Task<List<Customer>> GetAllCustomersAsync()

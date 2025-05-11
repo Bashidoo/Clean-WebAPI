@@ -13,7 +13,7 @@ namespace Application_Layer.Interfaces.CustomerInterface
         Task<bool> RemoveCustomerAsync(string customerName);
         Task<List<Customer>> GetAllCustomersAsync();
         Task<Customer> AddCustomerAsync(Customer customer);
-        Customer GetCurrentCustomerFromDB();
+        Customer? GetCurrentCustomerFromDB();
         Task<Customer?> FindCustomerByNameAsync(string name);
         Task<bool> UpdateCustomerAsync(Customer customer);
 

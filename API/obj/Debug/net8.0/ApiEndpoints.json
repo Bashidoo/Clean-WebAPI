@@ -17,22 +17,6 @@
   },
   {
     "ContainingType": "API.Controllers.CustomerController",
-    "Method": "DeleteACustomer",
-    "RelativePath": "api/Customer",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "customerName",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "API.Controllers.CustomerController",
     "Method": "UpdateACustomer",
     "RelativePath": "api/Customer",
     "HttpMethod": "PATCH",
@@ -43,6 +27,22 @@
         "Name": "customerToUpdate",
         "Type": "Application_Layer.Dtos.CustomerDto",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.CustomerController",
+    "Method": "DeleteACustomer",
+    "RelativePath": "api/Customer",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerName",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

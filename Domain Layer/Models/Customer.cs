@@ -19,7 +19,7 @@ namespace Domain_Layer.Models
 
         public ICollection<Order> Orders { get; set; } = new List<Order>();
 
-        public Customer()
+        public Customer() 
         {
             // This is just an example – you may want a more robust ID generator
             Id = new Random().Next(1000, 99999);
