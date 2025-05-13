@@ -21,10 +21,6 @@
 
   <ItemGroup>
     <Folder Include="Common\Behaviors\" />
-    <Folder Include="Queries\ProductQueries\CreateAProduct\" />
-    <Folder Include="Queries\ProductQueries\DeleteCustomer\" />
-    <Folder Include="Queries\ProductQueries\GetAllCurrentProducts\" />
-    <Folder Include="Queries\ProductQueries\UpdateAProduct\" />
   </ItemGroup>
 
 </Project>

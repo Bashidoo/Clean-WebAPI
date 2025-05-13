@@ -29,6 +29,9 @@ namespace Application_Layer
               typeof(ValidatorBehavior<,>)
           );
 
+
+
+
           //  services.AddScoped<ICustomerService, CustomerService>();
             services.AddMediatR(configuration =>
             configuration.RegisterServicesFromAssembly(assembly));
