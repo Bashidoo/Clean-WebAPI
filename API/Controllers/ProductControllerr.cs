@@ -1,4 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Application_Layer.Dtos;
+using Application_Layer.Dtos.ReponseDtos;
+using Application_Layer.Queries.ProductQueries.CreateAProduct;
+using Application_Layer.Queries.ProductQueries.DeleteProduct;
+using Application_Layer.Queries.ProductQueries.GetAllCurrentProducts;
+using Application_Layer.Queries.ProductQueries.GetProductByID;
+using Application_Layer.Queries.ProductQueries.UpdateAProduct;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,36 +16,82 @@ namespace API.Controllers
     [ApiController]
     public class ProductControllerr : ControllerBase
     {
-        // GET: api/<ProductControllerr>
-        [HttpGet]
-        public IEnumerable<string> Get()
+
+        private readonly IMediator _mediator;
+
+        public ProductControllerr(IMediator mediator)
         {
-            return new string[] { "value1", "value2" };
+            _mediator = mediator;
+        }
+        // GET: api/<ProductControllerr>
+        [HttpGet("Get-All-Product")]
+        public async Task<IActionResult> GetAllProducts()
+        {
+            var result = await _mediator.Send(new GetAllProductQuery());
+            if (!result.IsSuccess)
+            {
+                return BadRequest(result.Message);
+            }
+
+            return Ok(result);
         }
 
         // GET api/<ProductControllerr>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("Get-Product-By-id")]
+        public async Task<IActionResult> GetProductByID(double id)
         {
-            return "value";
+            var result = await _mediator.Send(new GetProductByIDQuery(id));
+
+            if (result.IsSuccess)
+            {
+                return Ok(result.Data);
+            }
+
+            return NotFound(result.Message);
         }
 
         // POST api/<ProductControllerr>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<IActionResult> CreateProduct([FromBody] ProductDto productdto)
         {
+            var result = await _mediator.Send(new CreateProductCommandQuery(productdto));
+
+            if (!result.IsSuccess)
+            {
+                return BadRequest(result.Message);
+            }
+
+            return CreatedAtAction(string.Empty, result.Data);
         }
 
         // PUT api/<ProductControllerr>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> UpdateProduct([FromBody] ProductResponseDto productdto)
         {
+            if (productdto == null)
+                return BadRequest("Patch attributes are null or incorrect.");
+
+            var result = await _mediator.Send(new UpdateProductQuery(productdto));
+
+            if (!result.IsSuccess || result.Data == null)
+                return NotFound(result.Message);
+
+            return Ok(result);
+
+
         }
 
         // DELETE api/<ProductControllerr>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete("{Delete-Product-By-id}")]
+        public async Task<IActionResult> DeleteProduct(double id)
         {
+            var result = await _mediator.Send(new DeleteProductQuery(id));
+
+            if (!result.IsSuccess)
+            {
+                return NotFound(result.Message);
+            }
+            return Ok(result);
         }
     }
 }

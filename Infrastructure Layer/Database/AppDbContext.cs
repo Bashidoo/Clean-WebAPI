@@ -29,6 +29,11 @@ namespace Infrastructure_Layer.Database
 
 
             });
+            modelBuilder.Entity<Product>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+               
+            });
 
 
         }

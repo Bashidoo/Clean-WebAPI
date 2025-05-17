@@ -1,4 +1,5 @@
 ﻿using Application_Layer.Interfaces.CustomerInterface;
+using Application_Layer.Interfaces.ProductInterface;
 using Infrastructure_Layer.Database;
 using Infrastructure_Layer.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -21,7 +22,7 @@ namespace Infrastructure_Layer
                 options.UseSqlServer(configuration.GetConnectionString("BusherinoDemolino"));
 
             });
-
+            services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             return services;
         }

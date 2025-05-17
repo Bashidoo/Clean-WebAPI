@@ -3,44 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{547374DE-A235-4C36-BC22-F370341257DD}|..\\Infrastructure Layer\\Infrastructure Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\infrastructure layer\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A76CDF2-537F-41FE-B36F-320787F166A4}|API.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A76CDF2-537F-41FE-B36F-320787F166A4}|API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\productqueries\\getproductbyid\\getproductbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{547374DE-A235-4C36-BC22-F370341257DD}|..\\Infrastructure Layer\\Infrastructure Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\infrastructure layer\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\productqueries\\getproductbyid\\getproductbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\productqueries\\updateaproduct\\updateproductquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\productqueries\\getallcurrentproducts\\getallproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\productqueries\\updateaproduct\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\customerqueries\\getallcurrentcustomer\\getallcurrentcustomerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\interfaces\\productinterface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\customerqueries\\getallcurrentcustomer\\getallcurrentcustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\productqueries\\getallcurrentproducts\\getallproductquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\productqueries\\deleteproduct\\deleteproductquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A76CDF2-537F-41FE-B36F-320787F166A4}|API.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\api\\controllers\\productcontrollerr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A76CDF2-537F-41FE-B36F-320787F166A4}|API.csproj|solutionrelative:controllers\\productcontrollerr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\productqueries\\createaproduct\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{547374DE-A235-4C36-BC22-F370341257DD}|..\\Infrastructure Layer\\Infrastructure Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\infrastructure layer\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\productqueries\\updateaproduct\\updateproducthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\queries\\productqueries\\updateaproduct\\updateproductquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A76CDF2-537F-41FE-B36F-320787F166A4}|API.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A76CDF2-537F-41FE-B36F-320787F166A4}|API.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB0839D-1C1C-4238-BFAA-48C401EEED94}|..\\Application Layer\\Application Layer.csproj|c:\\users\\busher\\desktop\\github\\databases\\clean-webapi\\application layer\\dtos\\reponsedtos\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,20 +40,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetAllProductsHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\GetAllCurrentProducts\\GetAllProductsHandler.cs",
-              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\ProductQueries\\GetAllCurrentProducts\\GetAllProductsHandler.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\GetAllCurrentProducts\\GetAllProductsHandler.cs",
-              "RelativeToolTip": "..\\Application Layer\\Queries\\ProductQueries\\GetAllCurrentProducts\\GetAllProductsHandler.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA5wCwAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ProductControllerr.cs",
+              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\API\\Controllers\\ProductControllerr.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductControllerr.cs",
+              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\API\\Controllers\\ProductControllerr.cs",
+              "RelativeToolTip": "Controllers\\ProductControllerr.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAA6wE4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T22:22:35.88Z",
+              "WhenOpened": "2025-05-16T13:43:05.753Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Infrastructure Layer\\Database\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure Layer\\Database\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Infrastructure Layer\\Database\\AppDbContext.cs",
+              "RelativeToolTip": "..\\Infrastructure Layer\\Database\\AppDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA0wCIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T19:44:47.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Infrastructure Layer\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure Layer\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Infrastructure Layer\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\Infrastructure Layer\\DependencyInjection.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T19:40:57.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\Application Layer\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\Application Layer\\DependencyInjection.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T19:40:18.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T19:40:06.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\API\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\API\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAiwAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T19:30:35.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Dtos\\ReponseDtos\\ProductResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\Application Layer\\Dtos\\ReponseDtos\\ProductResponseDto.cs",
+              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Dtos\\ReponseDtos\\ProductResponseDto.cs",
+              "RelativeToolTip": "..\\Application Layer\\Dtos\\ReponseDtos\\ProductResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T15:24:16.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateProductQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\UpdateAProduct\\UpdateProductQuery.cs",
+              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\ProductQueries\\UpdateAProduct\\UpdateProductQuery.cs",
+              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\UpdateAProduct\\UpdateProductQuery.cs",
+              "RelativeToolTip": "..\\Application Layer\\Queries\\ProductQueries\\UpdateAProduct\\UpdateProductQuery.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T15:18:31.032Z",
               "EditorCaption": ""
             },
             {
@@ -74,173 +155,9 @@
               "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\ProductQueries\\UpdateAProduct\\UpdateProductHandler.cs",
               "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\UpdateAProduct\\UpdateProductHandler.cs",
               "RelativeToolTip": "..\\Application Layer\\Queries\\ProductQueries\\UpdateAProduct\\UpdateProductHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwDAAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T22:52:14.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateProductQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\UpdateAProduct\\UpdateProductQuery.cs",
-              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\ProductQueries\\UpdateAProduct\\UpdateProductQuery.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\UpdateAProduct\\UpdateProductQuery.cs",
-              "RelativeToolTip": "..\\Application Layer\\Queries\\ProductQueries\\UpdateAProduct\\UpdateProductQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T22:52:02.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetProductByIDHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\GetProductByID\\GetProductByIDHandler.cs",
-              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\ProductQueries\\GetProductByID\\GetProductByIDHandler.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\GetProductByID\\GetProductByIDHandler.cs",
-              "RelativeToolTip": "..\\Application Layer\\Queries\\ProductQueries\\GetProductByID\\GetProductByIDHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T22:51:44.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetProductByIDQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\GetProductByID\\GetProductByIDQuery.cs",
-              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\ProductQueries\\GetProductByID\\GetProductByIDQuery.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\GetProductByID\\GetProductByIDQuery.cs",
-              "RelativeToolTip": "..\\Application Layer\\Queries\\ProductQueries\\GetProductByID\\GetProductByIDQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T22:51:32.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Infrastructure Layer\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure Layer\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Infrastructure Layer\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "..\\Infrastructure Layer\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIA0wBsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T22:41:17.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Interfaces\\ProductInterface\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "..\\Application Layer\\Interfaces\\ProductInterface\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Interfaces\\ProductInterface\\IProductRepository.cs",
-              "RelativeToolTip": "..\\Application Layer\\Interfaces\\ProductInterface\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T22:07:49.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetAllCurrentCustomerQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CustomerQueries\\GetAllCurrentCustomer\\GetAllCurrentCustomerQuery.cs",
-              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\CustomerQueries\\GetAllCurrentCustomer\\GetAllCurrentCustomerQuery.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CustomerQueries\\GetAllCurrentCustomer\\GetAllCurrentCustomerQuery.cs",
-              "RelativeToolTip": "..\\Application Layer\\Queries\\CustomerQueries\\GetAllCurrentCustomer\\GetAllCurrentCustomerQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T22:25:35.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetAllCurrentCustomerHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CustomerQueries\\GetAllCurrentCustomer\\GetAllCurrentCustomerHandler.cs",
-              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\CustomerQueries\\GetAllCurrentCustomer\\GetAllCurrentCustomerHandler.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\CustomerQueries\\GetAllCurrentCustomer\\GetAllCurrentCustomerHandler.cs",
-              "RelativeToolTip": "..\\Application Layer\\Queries\\CustomerQueries\\GetAllCurrentCustomer\\GetAllCurrentCustomerHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvxcAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T22:25:22.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GetAllProductQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\GetAllCurrentProducts\\GetAllProductQuery.cs",
-              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\ProductQueries\\GetAllCurrentProducts\\GetAllProductQuery.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\GetAllCurrentProducts\\GetAllProductQuery.cs",
-              "RelativeToolTip": "..\\Application Layer\\Queries\\ProductQueries\\GetAllCurrentProducts\\GetAllProductQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T22:22:24.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DeleteProductQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\DeleteProduct\\DeleteProductQuery.cs",
-              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\ProductQueries\\DeleteProduct\\DeleteProductQuery.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\DeleteProduct\\DeleteProductQuery.cs",
-              "RelativeToolTip": "..\\Application Layer\\Queries\\ProductQueries\\DeleteProduct\\DeleteProductQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T22:00:09.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductControllerr.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\API\\Controllers\\ProductControllerr.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductControllerr.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\API\\Controllers\\ProductControllerr.cs",
-              "RelativeToolTip": "Controllers\\ProductControllerr.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T21:58:52.407Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "e4b4ccce-558e-4d07-8707-4a24c87b140b",
-        "Display": 0,
-        "X": 1038,
-        "Y": 304,
-        "Width": 920,
-        "Height": 754,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreateProductCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\CreateAProduct\\CreateProductCommandHandler.cs",
-              "RelativeDocumentMoniker": "..\\Application Layer\\Queries\\ProductQueries\\CreateAProduct\\CreateProductCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Busher\\Desktop\\Github\\Databases\\Clean-WebAPI\\Application Layer\\Queries\\ProductQueries\\CreateAProduct\\CreateProductCommandHandler.cs",
-              "RelativeToolTip": "..\\Application Layer\\Queries\\ProductQueries\\CreateAProduct\\CreateProductCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T22:13:32.499Z",
+              "WhenOpened": "2025-05-17T15:18:30.002Z",
               "EditorCaption": ""
             }
           ]
