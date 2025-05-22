@@ -18,9 +18,9 @@ namespace Application_Layer.Interfaces.ProductInterface
         Task<Product?> GetProductByNameAsync(string productName);
         Task<Product?> GetProductByIdAsync(double productId);
 
-        Task<bool> UpdateProductAsync(Product product);
+        Task<bool> UpdateProductAsync(Product productToUpdate);
 
-        Task<bool> RemoveProductAsync(double productID);
+        Task<Product?> RemoveProductAsync(double productId);
         
     }
 }

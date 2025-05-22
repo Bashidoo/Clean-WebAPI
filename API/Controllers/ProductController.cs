@@ -12,19 +12,20 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/products")]
     [ApiController]
-    public class ProductControllerr : ControllerBase
+    public class ProductController : ControllerBase
     {
 
         private readonly IMediator _mediator;
 
-        public ProductControllerr(IMediator mediator)
+        public ProductController(IMediator mediator)
         {
             _mediator = mediator;
         }
         // GET: api/<ProductControllerr>
-        [HttpGet("Get-All-Product")]
+    
+        [HttpGet("getAllProducts")]
         public async Task<IActionResult> GetAllProducts()
         {
             var result = await _mediator.Send(new GetAllProductQuery());
@@ -51,7 +52,7 @@ namespace API.Controllers
         }
 
         // POST api/<ProductControllerr>
-        [HttpPost]
+        [HttpPost("Create A Product")]
         public async Task<IActionResult> CreateProduct([FromBody] ProductDto productdto)
         {
             var result = await _mediator.Send(new CreateProductCommandQuery(productdto));
@@ -61,11 +62,11 @@ namespace API.Controllers
                 return BadRequest(result.Message);
             }
 
-            return CreatedAtAction(string.Empty, result.Data);
+            return Ok(new { Message = $"Product Created Succesfully", result.Data });
         }
 
         // PUT api/<ProductControllerr>/5
-        [HttpPatch("{id}")]
+        [HttpPatch("Edit Product details")]
         public async Task<IActionResult> UpdateProduct([FromBody] ProductResponseDto productdto)
         {
             if (productdto == null)
@@ -82,7 +83,7 @@ namespace API.Controllers
         }
 
         // DELETE api/<ProductControllerr>/5
-        [HttpDelete("{Delete-Product-By-id}")]
+        [HttpDelete("Delete-Product-By-id")]
         public async Task<IActionResult> DeleteProduct(double id)
         {
             var result = await _mediator.Send(new DeleteProductQuery(id));

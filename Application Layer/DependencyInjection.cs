@@ -33,6 +33,7 @@ namespace Application_Layer
 
 
           //  services.AddScoped<ICustomerService, CustomerService>();
+
             services.AddMediatR(configuration =>
             configuration.RegisterServicesFromAssembly(assembly));
             services.AddAutoMapper(assembly);

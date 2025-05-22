@@ -22,6 +22,7 @@ namespace Infrastructure_Layer
                 options.UseSqlServer(configuration.GetConnectionString("BusherinoDemolino"));
 
             });
+
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             return services;

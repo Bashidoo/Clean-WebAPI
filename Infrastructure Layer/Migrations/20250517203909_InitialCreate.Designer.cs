@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure_Layer.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250504035800_Initial")]
-    partial class Initial
+    [Migration("20250517203909_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -37,7 +37,8 @@ namespace Infrastructure_Layer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double>("Id")
+                    b.Property<double?>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("float");
 
                     b.HasKey("Name");
@@ -96,7 +97,7 @@ namespace Infrastructure_Layer.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Product");
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Domain_Layer.Models.Order", b =>

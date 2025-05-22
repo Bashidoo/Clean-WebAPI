@@ -34,7 +34,8 @@ namespace Infrastructure_Layer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double>("Id")
+                    b.Property<double?>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("float");
 
                     b.HasKey("Name");
@@ -93,7 +94,7 @@ namespace Infrastructure_Layer.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Product");
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Domain_Layer.Models.Order", b =>

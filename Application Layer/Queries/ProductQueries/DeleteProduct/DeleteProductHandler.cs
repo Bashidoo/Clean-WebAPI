@@ -18,8 +18,8 @@ namespace Application_Layer.Queries.ProductQueries.DeleteProduct
         private readonly IMapper _mapper;
         private readonly IProductRepository _productrepository;
 
-        private readonly ILogger _logger;
-        public DeleteProductHandler(IProductRepository productrepository, ILogger logger, IMapper mapper)
+        private readonly ILogger<DeleteProductHandler> _logger;
+        public DeleteProductHandler(IProductRepository productrepository, ILogger<DeleteProductHandler> logger, IMapper mapper)
         {
             _mapper = mapper;
             _productrepository = productrepository;
@@ -33,11 +33,11 @@ namespace Application_Layer.Queries.ProductQueries.DeleteProduct
             try
             {
               
-                var product = await _productrepository.GetProductByIdAsync(request.ProductId);
-                bool isDeleted = await _productrepository.RemoveProductAsync(request.ProductId);
+             
+                var productToDelete = await _productrepository.RemoveProductAsync(request.ProductId);
 
-                _logger.LogInformation($"Deleted product with ID:{request.ProductId} : Name {product.Name}");
-                return OperationResult.Success($" Successfuly deleted product:{product.Name} ");
+                _logger.LogInformation($"Deleted product with ID:{request.ProductId} : Name {productToDelete.Name}");
+                return OperationResult.Success($" Successfuly deleted product:{productToDelete.Name} ");
 
 
             }

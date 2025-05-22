@@ -30,7 +30,7 @@ namespace Application_Layer.Common.Results
             {
                 Message = message,
                 Data = data,
-                IsSuccess = false
+                IsSuccess = true
             };
         }
 

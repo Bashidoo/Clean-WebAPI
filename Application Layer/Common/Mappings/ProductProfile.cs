@@ -1,4 +1,5 @@
 ﻿using Application_Layer.Dtos;
+using Application_Layer.Dtos.ReponseDtos;
 using AutoMapper;
 using Domain_Layer.Models;
 using System;
@@ -33,6 +34,13 @@ namespace Application_Layer.Common.Mappings
                     if (dest.Id == 0)
                         dest.Id = new Random().Next(1000, 9999); // Replace with your ID generation logic
                 });
+
+            CreateMap<Product, ProductResponseDto>();
+
+            // PATCH mapping (reverse map + ignore ID)
+            CreateMap<ProductResponseDto, Product>()
+                .ForMember(dest => dest.Id, opt => opt.Ignore())
+                .ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null));
         }
     }
 }

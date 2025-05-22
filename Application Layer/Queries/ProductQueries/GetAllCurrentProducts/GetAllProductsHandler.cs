@@ -15,10 +15,10 @@ namespace Application_Layer.Queries.ProductQueries.GetAllCurrentProducts
 {
     public class GetAllProductsHandler : IRequestHandler<GetAllProductQuery, OperationResult>
     {
-        private readonly ILogger _logger;
+        private readonly ILogger<GetAllProductsHandler> _logger;
         private readonly IProductRepository _productrepository;
         private readonly IMapper _mapper;
-        public GetAllProductsHandler(IProductRepository productrepository, ILogger logger, IMapper mapper)
+        public GetAllProductsHandler(IProductRepository productrepository, ILogger<GetAllProductsHandler> logger, IMapper mapper)
         {
             _productrepository = productrepository;
             _logger = logger;

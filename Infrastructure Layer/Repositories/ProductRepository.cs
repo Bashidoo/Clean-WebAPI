@@ -45,16 +45,16 @@ namespace Infrastructure_Layer.Repositories
             return await _theDatabase.Products.FindAsync(productName);
         }
 
-        public async Task<bool> RemoveProductAsync(double productID)
+        public async Task<Product?> RemoveProductAsync(double productID)
         {
             var productToFind = await _theDatabase.Products.FirstOrDefaultAsync(x => x.Id == productID);
 
             if (productToFind == null)
-                return false;
+                return null;
 
             _theDatabase.Products.Remove(productToFind);
             await _theDatabase.SaveChangesAsync();
-            return true;
+            return productToFind;
         }
 
         public async Task<bool> UpdateProductAsync(Product product)

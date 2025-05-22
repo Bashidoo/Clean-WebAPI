@@ -17,10 +17,10 @@ namespace Application_Layer.Queries.ProductQueries.GetProductByID
     public class GetProductByIDHandler : IRequestHandler<GetProductByIDQuery, OperationResult>
     {
         private readonly IProductRepository _productRepository;
-        private readonly ILogger<UpdateACustomerHandler> _logger;
+        private readonly ILogger<GetProductByIDHandler> _logger;
         private readonly IMapper _mapper;
 
-        public GetProductByIDHandler(IProductRepository productrepository, ILogger<UpdateACustomerHandler> logger, IMapper mapper)
+        public GetProductByIDHandler(IProductRepository productrepository, ILogger<GetProductByIDHandler> logger, IMapper mapper)
         {
             _productRepository = productrepository;
             _logger = logger;

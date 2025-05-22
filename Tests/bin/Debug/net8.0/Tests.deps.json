@@ -440,7 +440,7 @@
         },
         "runtime": {
           "Application Layer.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -448,7 +448,7 @@
       "Domain Layer/1.0.0": {
         "runtime": {
           "Domain Layer.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
